@@ -106,7 +106,7 @@ export class OrdersService {
    * Supprime lla commande payée pour un utilisateur donné avec un statut "NEW".
    * @param id - Identifiant de la commande
    */
-    async delete(id: number): Promise<void> {
+     delete(id: number) {
      return this.orderRepository.delete( id );
     }
   
