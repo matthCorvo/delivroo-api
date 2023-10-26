@@ -107,7 +107,7 @@ export class OrdersService {
    * @param id - Identifiant de la commande
    */
     async delete(id: number): Promise<void> {
-     return this.orderRepository.delete( id );
+      this.orderRepository.delete( id );
     }
   
 
